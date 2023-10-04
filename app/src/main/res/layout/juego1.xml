@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_8846805_ilustraci_n_vertical_de_dibujos_animados_de_bosque_con_copia_espacio_1">
+
+    <ImageView
+        android:id="@+id/soundIconImageView"
+        android:layout_width="130dp"
+        android:layout_height="111dp"
+        android:background="@drawable/image__5__1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TableLayout
+        android:layout_width="392dp"
+        android:layout_height="558dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.849">
+
+        <TableRow
+            android:layout_width="385dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/chooseAnimal1Button"
+                android:layout_width="172dp"
+                android:layout_height="168dp"
+                android:background="@drawable/animal1"
+                android:contentDescription="Descripción de confButton"
+                android:onClick="chooseAnimal1" />
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/chooseAnimal2Button"
+                android:layout_width="172dp"
+                android:layout_height="168dp"
+                android:background="@drawable/animal2"
+                android:contentDescription="Descripción de confButton"
+                android:onClick="chooseAnimal2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="315dp"
+            android:gravity="center"
+            android:paddingTop="10dp">
+
+            <ImageButton
+                android:id="@+id/chooseAnimal3Button"
+                android:layout_width="172dp"
+                android:layout_height="168dp"
+                android:background="@drawable/animal3"
+                android:contentDescription="Descripción de confButton"
+                android:onClick="chooseAnimal3" />
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/chooseAnimal4Button"
+                android:layout_width="172dp"
+                android:layout_height="168dp"
+                android:background="@drawable/animal4"
+                android:contentDescription="Descripción de confButton"
+                android:onClick="chooseAnimal4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingTop="10dp">
+
+            <ImageButton
+                android:id="@+id/chooseAnimal5Button"
+                android:layout_width="172dp"
+                android:layout_height="168dp"
+                android:background="@drawable/animal5"
+                android:contentDescription="Descripción de confButton"
+                android:onClick="chooseAnimal5" />
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/chooseAnimal6Button"
+                android:layout_width="172dp"
+                android:layout_height="168dp"
+                android:background="@drawable/animal6"
+                android:contentDescription="Descripción de confButton"
+                android:onClick="chooseAnimal6" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/image_1">
+    android:background="@drawable/_8846805_ilustraci_n_vertical_de_dibujos_animados_de_bosque_con_copia_espacio_1">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -73,10 +73,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.092"
+        app:layout_constraintVertical_bias="0.08"
         app:srcCompat="@drawable/group_5" />
 
     <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="387dp"
         android:layout_height="569dp"
         android:gravity="center"
@@ -84,7 +85,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.627">
 
         <TableRow
@@ -102,10 +103,11 @@
                 app:srcCompat="@drawable/group_6" />
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/juego2Boton"
                 android:layout_width="195dp"
                 android:layout_height="195dp"
                 android:gravity="center"
+                android:onClick="juego2Boton"
                 app:srcCompat="@drawable/group_7" />
 
         </TableRow>
@@ -116,7 +118,7 @@
             android:gravity="center">
 
             <ImageView
-                android:id="@+id/imageView7"
+                android:id="@+id/juego3Boton"
                 android:layout_width="195dp"
                 android:layout_height="195dp"
                 app:srcCompat="@drawable/group_8" />
@@ -147,5 +149,17 @@
         </TableRow>
 
     </TableLayout>
+
+    <ImageView
+        android:id="@+id/manoAnimada2"
+        android:layout_width="90dp"
+        android:layout_height="82dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32999998"
+        app:srcCompat="@drawable/_686301_removebg_preview_1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

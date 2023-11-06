@@ -33,6 +33,9 @@
         <activity android:name=".juego1">
             <!-- Configuración adicional si es necesaria -->
         </activity>
+        <activity android:name=".juego2">
+            <!-- Configuración adicional si es necesaria -->
+        </activity>
     </application>
 
 </manifest>

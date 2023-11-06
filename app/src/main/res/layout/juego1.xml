@@ -7,30 +7,18 @@
     android:layout_height="match_parent"
     android:background="@drawable/_8846805_ilustraci_n_vertical_de_dibujos_animados_de_bosque_con_copia_espacio_1">
 
-    <ImageView
-        android:id="@+id/soundIconImageView"
-        android:layout_width="130dp"
-        android:layout_height="111dp"
-        android:background="@drawable/image__5__1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025" />
-
     <TableLayout
-        android:layout_width="392dp"
-        android:layout_height="558dp"
+        android:layout_width="399dp"
+        android:layout_height="667dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintHorizontal_bias="0.561"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.849">
+        app:layout_constraintVertical_bias="0.553">
 
         <TableRow
-            android:layout_width="385dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center">
 
@@ -57,9 +45,9 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="315dp"
+            android:layout_height="match_parent"
             android:gravity="center"
-            android:paddingTop="10dp">
+            android:paddingTop="80dp">
 
             <ImageButton
                 android:id="@+id/chooseAnimal3Button"
@@ -84,9 +72,9 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="273dp"
             android:gravity="center"
-            android:paddingTop="10dp">
+            android:paddingTop="80dp">
 
             <ImageButton
                 android:id="@+id/chooseAnimal5Button"
@@ -109,5 +97,6 @@
                 android:onClick="chooseAnimal6" />
         </TableRow>
     </TableLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
